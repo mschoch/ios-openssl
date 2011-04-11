@@ -67,18 +67,18 @@ mkdir lib
 lipo \
 	/tmp/openssl-1.0.0a-armv6/lib/libcrypto.a \
 	/tmp/openssl-1.0.0a-armv7/lib/libcrypto.a \
-	-create -output lib/libcrypto-device.a
+	-create -output lib/libcrypto-iphoneos.a
 lipo \
 	/tmp/openssl-1.0.0a-armv6/lib/libssl.a \
 	/tmp/openssl-1.0.0a-armv7/lib/libssl.a \
-	-create -output lib/libssl-device.a
+	-create -output lib/libssl-iphoneos.a
 
 lipo \
 	/tmp/openssl-1.0.0a-i386/lib/libcrypto.a \
-	-create -output lib/libcrypto-simulator.a
+	-create -output lib/libcrypto-iphonesimulator.a
 lipo \
 	/tmp/openssl-1.0.0a-i386/lib/libssl.a \
-	-create -output lib/libssl-simulator.a
+	-create -output lib/libssl-iphonesimulator.a
 
 #rm -rf /tmp/openssl-1.0.0a-*
 #rm -rf /tmp/openssl-1.0.0a-*.log
