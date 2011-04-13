@@ -1,0 +1,133 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		0304C9E41355BDBF0056426A /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		0304C9E81355BE460056426A /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0304C9C21355B4E40056426A = {
+			isa = PBXGroup;
+			children = (
+				0304C9E51355BDD40056426A /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 1;
+		};
+		0304C9E51355BDD40056426A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0304C9E81355BE460056426A /* lib */,
+				0304C9E41355BDBF0056426A /* include */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		0304C9CB1355B5970056426A /* openssl */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "";
+			buildConfigurationList = 0304C9CC1355B5970056426A /* Build configuration list for PBXLegacyTarget "openssl" */;
+			buildPhases = (
+			);
+			buildToolPath = ./build.sh;
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = openssl;
+			passBuildSettingsInEnvironment = 0;
+			productName = "openssl-iphoneos";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		0304C9C41355B4E40056426A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 0304C9C71355B4E40056426A /* Build configuration list for PBXProject "openssl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0304C9C21355B4E40056426A;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0304C9CB1355B5970056426A /* openssl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		0304C9C91355B4E40056426A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = iphoneos;
+				VALID_ARCHS = "armv6 armv7";
+			};
+			name = Debug;
+		};
+		0304C9CA1355B4E40056426A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = iphoneos;
+				VALID_ARCHS = "armv6 armv7";
+			};
+			name = Release;
+		};
+		0304C9CD1355B5970056426A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		0304C9CE1355B5970056426A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0304C9C71355B4E40056426A /* Build configuration list for PBXProject "openssl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0304C9C91355B4E40056426A /* Debug */,
+				0304C9CA1355B4E40056426A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0304C9CC1355B5970056426A /* Build configuration list for PBXLegacyTarget "openssl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0304C9CD1355B5970056426A /* Debug */,
+				0304C9CE1355B5970056426A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0304C9C41355B4E40056426A /* Project object */;
+}
