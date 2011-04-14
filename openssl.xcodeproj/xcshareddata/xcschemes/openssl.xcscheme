@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0304C9CB1355B5970056426A"
-               BuildableName = "openssl-iphoneos"
+               BuildableName = "openssl"
                BlueprintName = "openssl"
                ReferencedContainer = "container:openssl.xcodeproj">
             </BuildableReference>
